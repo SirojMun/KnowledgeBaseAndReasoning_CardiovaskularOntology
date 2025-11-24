@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/acer/ontologies/2025/10/untitled-ontology-15"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/acer/ontologies/2025/10/untitled-ontology-15">
+    <Prefix name="" IRI="http://www.semanticweb.org/acer/ontologies/2025/10/untitled-ontology-15/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BodyStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiagnosticTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affectsStructure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#confirmedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiseaseCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTypicalSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treatedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSeverity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTypicalOnsetAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Age_Over_60RF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aneurisma_Aorta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aorta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aortic_Dissection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arrhythmia_General"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atrial_Fibrillation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bradycardia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cardiomyopathy_General"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chest_Pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conduction_System"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes_RF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dilated_Cardiomyopathy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dizziness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dyspnea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Endocardium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Endokarditis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fatigue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Failure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hyperlipidemia_RF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypertension_RF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypertensive_Heart_Disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypertrophic_Cardiomyopathy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iv_Drug_Use_RF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Left_Ventricle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leg_Edema"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Murmur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orthopnea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Palpitations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pericardium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perikarditis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rheumatic_Fever_History_RF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rheumatic_Heart_Disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smoking_RF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Syncope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tachycardia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ventricular_Fibrillation"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#RiskFactor"/>
+        <NamedIndividual IRI="#Age_Over_60RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Aneurisma_Aorta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BodyStructure"/>
+        <NamedIndividual IRI="#Aorta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Aortic_Dissection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Arrhythmia_General"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Atrial_Fibrillation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Bradycardia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Cardiomyopathy_General"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Chest_Pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BodyStructure"/>
+        <NamedIndividual IRI="#Conduction_System"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiskFactor"/>
+        <NamedIndividual IRI="#Diabetes_RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Dilated_Cardiomyopathy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Dizziness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Dyspnea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Endokarditis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Fever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BodyStructure"/>
+        <NamedIndividual IRI="#Heart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Heart_Failure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiskFactor"/>
+        <NamedIndividual IRI="#Hyperlipidemia_RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiskFactor"/>
+        <NamedIndividual IRI="#Hypertension_RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Hypertensive_Heart_Disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Hypertrophic_Cardiomyopathy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiskFactor"/>
+        <NamedIndividual IRI="#Iv_Drug_Use_RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BodyStructure"/>
+        <NamedIndividual IRI="#Left_Ventricle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Leg_Edema"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Murmur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Orthopnea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Palpitations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BodyStructure"/>
+        <NamedIndividual IRI="#Pericardium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Perikarditis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiskFactor"/>
+        <NamedIndividual IRI="#Rheumatic_Fever_History_RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Rheumatic_Heart_Disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiskFactor"/>
+        <NamedIndividual IRI="#Smoking_RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Syncope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Tachycardia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Ventricular_Fibrillation"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsStructure"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#confirmedBy"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDiseaseCategory"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTypicalSymptom"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treatedBy"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affectsStructure"/>
+        <Class IRI="#BodyStructure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#confirmedBy"/>
+        <Class IRI="#DiagnosticTest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+        <Class IRI="#RiskFactor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTypicalSymptom"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treatedBy"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
