@@ -171,6 +171,9 @@
     <Declaration>
         <NamedIndividual IRI="#Ventricular_Fibrillation"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ventricular_Septal_Defect"/>
+    </Declaration>
     <ClassAssertion>
         <Class IRI="#RiskFactor"/>
         <NamedIndividual IRI="#Age_Over_60RF"/>
