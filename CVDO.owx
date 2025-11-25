@@ -88,6 +88,9 @@
         <NamedIndividual IRI="#Conduction_System"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Dead_People"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Diabetes_RF"/>
     </Declaration>
     <Declaration>
