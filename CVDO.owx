@@ -58,6 +58,9 @@
         <DataProperty IRI="#hasTypicalOnsetAge"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Age_Over_60RF"/>
     </Declaration>
     <Declaration>
@@ -79,6 +82,12 @@
         <NamedIndividual IRI="#Bradycardia"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Calcium_Channel_Blocker_Therapy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CardiacTroponinTest"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Cardiomyopathy_General"/>
     </Declaration>
     <Declaration>
@@ -86,6 +95,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Conduction_System"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coronary_Angiography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coronary_Artery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coronary_Artery_Disease"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dead_People"/>
@@ -101,6 +119,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dyspnea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electrocardiography"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Endocardium"/>
@@ -124,6 +145,9 @@
         <NamedIndividual IRI="#Hyperlipidemia_RF"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Hypertension"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Hypertension_RF"/>
     </Declaration>
     <Declaration>
@@ -145,10 +169,19 @@
         <NamedIndividual IRI="#Murmur"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Myocardium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nitroglycerin_Therapy"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Orthopnea"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Palpitations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Percutaneous_Coronary_Intervention"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pericardium"/>
@@ -157,10 +190,19 @@
         <NamedIndividual IRI="#Perikarditis"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rest_Chest_Pain"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Rheumatic_Fever_History_RF"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Rheumatic_Heart_Disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smoking"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Smoking_RF"/>
@@ -172,11 +214,18 @@
         <NamedIndividual IRI="#Tachycardia"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Thrombolytic_Therapy"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ventricular_Fibrillation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ventricular_Septal_Defect"/>
     </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#RiskFactor"/>
         <NamedIndividual IRI="#Age_Over_60RF"/>
@@ -206,6 +255,14 @@
         <NamedIndividual IRI="#Bradycardia"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Calcium_Channel_Blocker_Therapy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DiagnosticTest"/>
+        <NamedIndividual IRI="#CardiacTroponinTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Disease"/>
         <NamedIndividual IRI="#Cardiomyopathy_General"/>
     </ClassAssertion>
@@ -216,6 +273,18 @@
     <ClassAssertion>
         <Class IRI="#BodyStructure"/>
         <NamedIndividual IRI="#Conduction_System"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DiagnosticTest"/>
+        <NamedIndividual IRI="#Coronary_Angiography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BodyStructure"/>
+        <NamedIndividual IRI="#Coronary_Artery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#RiskFactor"/>
@@ -232,6 +301,10 @@
     <ClassAssertion>
         <Class IRI="#Symptom"/>
         <NamedIndividual IRI="#Dyspnea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DiagnosticTest"/>
+        <NamedIndividual IRI="#Electrocardiography"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Disease"/>
@@ -252,6 +325,10 @@
     <ClassAssertion>
         <Class IRI="#RiskFactor"/>
         <NamedIndividual IRI="#Hyperlipidemia_RF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Hypertension"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#RiskFactor"/>
@@ -282,12 +359,24 @@
         <NamedIndividual IRI="#Murmur"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#BodyStructure"/>
+        <NamedIndividual IRI="#Myocardium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Nitroglycerin_Therapy"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Symptom"/>
         <NamedIndividual IRI="#Orthopnea"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Symptom"/>
         <NamedIndividual IRI="#Palpitations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Percutaneous_Coronary_Intervention"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BodyStructure"/>
@@ -298,12 +387,24 @@
         <NamedIndividual IRI="#Perikarditis"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Symptom"/>
+        <NamedIndividual IRI="#Rest_Chest_Pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#RiskFactor"/>
         <NamedIndividual IRI="#Rheumatic_Fever_History_RF"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Disease"/>
         <NamedIndividual IRI="#Rheumatic_Heart_Disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiskFactor"/>
+        <NamedIndividual IRI="#Smoking"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#RiskFactor"/>
@@ -318,9 +419,108 @@
         <NamedIndividual IRI="#Tachycardia"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Thrombolytic_Therapy"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Disease"/>
         <NamedIndividual IRI="#Ventricular_Fibrillation"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affectsStructure"/>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+        <NamedIndividual IRI="#Myocardium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#confirmedBy"/>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+        <NamedIndividual IRI="#CardiacTroponinTest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#confirmedBy"/>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+        <NamedIndividual IRI="#Electrocardiography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+        <NamedIndividual IRI="#Hypertension"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+        <NamedIndividual IRI="#Smoking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatedBy"/>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+        <NamedIndividual IRI="#Percutaneous_Coronary_Intervention"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatedBy"/>
+        <NamedIndividual IRI="#Acute_Myocardinal_Infarction"/>
+        <NamedIndividual IRI="#Thrombolytic_Therapy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affectsStructure"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease"/>
+        <NamedIndividual IRI="#Coronary_Artery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#confirmedBy"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease"/>
+        <NamedIndividual IRI="#Coronary_Angiography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease"/>
+        <NamedIndividual IRI="#Hypertension"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTypicalSymptom"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease"/>
+        <NamedIndividual IRI="#Chest_Pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatedBy"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease"/>
+        <NamedIndividual IRI="#Percutaneous_Coronary_Intervention"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affectsStructure"/>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+        <NamedIndividual IRI="#Coronary_Artery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#confirmedBy"/>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+        <NamedIndividual IRI="#Coronary_Angiography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#confirmedBy"/>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+        <NamedIndividual IRI="#Electrocardiography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+        <NamedIndividual IRI="#Smoking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTypicalSymptom"/>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+        <NamedIndividual IRI="#Rest_Chest_Pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatedBy"/>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+        <NamedIndividual IRI="#Calcium_Channel_Blocker_Therapy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatedBy"/>
+        <NamedIndividual IRI="#Prizmetal_Angina"/>
+        <NamedIndividual IRI="#Nitroglycerin_Therapy"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#affectsStructure"/>
         <Class IRI="#Disease"/>
